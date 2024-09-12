@@ -1,0 +1,277 @@
+main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1440px;
+}
+
+.main_info {
+  width: 100%;
+  max-width: 570px;
+}
+
+.main_info p {
+  font-size: 18px;
+  margin: 20px 0 28px;
+}
+
+.main_info div {
+  display: flex;
+  column-gap: 32px;
+}
+
+.main_info div a,
+.main_info div button {
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  transform: skew(-10deg);
+}
+
+.main_info div a {
+  background: var(--red);
+}
+
+.main_info div button {
+  background: transparent;
+  border: 1px solid var(--green);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: 80vh;
+}
+
+.card {
+  background: #fff;
+  box-shadow: 0px 2px 23px #26395347;
+  border-radius: 20px;
+  width: 300px;
+  margin: 0px 10px;
+}
+
+.top-card {
+  padding: 20px;
+  padding-top: 0px;
+}
+
+.title {
+  color: #2b3d59;
+}
+
+.second-text {
+  color: #828fa1;
+}
+
+.media-card1 {
+  background: url(https://forbes.com.br/wp-content/uploads/2021/09/2_Life_Formula1-GP-Sao-Paulo_10set2021_Getty-800x533.jpg) center/cover;
+  height: 388px;
+  width: 100%;
+}
+
+.media-card2 {
+  background: url(https://i.dailymail.co.uk/1s/2021/12/18/11/51955307-10323843-image-a-11_1639828296220.jpg) center/cover;
+  height: 400px;
+  width: 100%;
+}
+
+.media-card3 {
+  background: url(https://www.grandepremio.com.br/wp-content/uploads/2023/11/000_33ZU7J4-1024x683.jpg) center/cover;
+  height: 400px;
+  width: 100%;
+}
+
+.bottom-card {
+  padding: 20px;
+}
+
+.bottom-text {
+  color: #445b73;
+}
+
+.actions {
+  background: none;
+  border: none;
+  color: purple;
+}
+
+/*2 botões*/
+/* Estilos gerais para o corpo da página */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+}
+.btn {
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.btn-primary {
+  background-color: #FF0000;
+  color: white;
+}
+.btn-secondary {
+  background-color: #333333;
+  color: white;
+}
+
+
+/*14 botões*/
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.ticket-selection {
+  background-color: rgba(255,255,255,0.9);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  width: 90%;
+}
+.content h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+
+}
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.btn {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+.btn-green { background-color: #006400; }
+.btn-orange { background-color: #FFA500; }
+.btn-lightblue { background-color: #ADD8E6; }
+.btn-pink { background-color: #FFB6C1; }
+.btn-gray { background-color: #808080; }
+.sold-out {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #A9A9A9;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 0.8em;
+}
+.info-text {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9em;
+}
+
+
+/*Card Sobre o Evento*/
+.card-evento{
+  background-color: #e9e9e9e5;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 900px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: left;
+}
+.card-evento h1{
+  color: #000000;
+}
+.card h1 {
+  color: #ffffff;
+  margin-top: 0;
+  font-size: 39px;
+}
+.card-evento.card-evento{
+  color: #666;
+  line-height: 1.6;
+  font-size:150%
+}
+
+
+
+/*Mais informações*/
+
+
+
+.container {
+  background-color: #ff0000;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  width: 1100px;
+  height: 400px;
+  margin-top: 12%;
+
+}
+
+h1 {
+  color:  #ffffff;
+}
+
+.schedule {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.day {
+  margin: 10px;
+  padding: 10px;
+  background-color: #ebebeb;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  flex: 1;
+  min-width: 200px;
+}
+
+.day h2 {
+  color: #666;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 5px 0;
+  color: #000000;
+}
